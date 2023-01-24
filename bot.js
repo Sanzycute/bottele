@@ -21,7 +21,7 @@ instagram : adimas_shadoet
 */
 const Telegraf = require('telegraf')
 
-const bot = new Telegraf('1675749539:AAH46KNMRschhJDMuI5dclpp9FnB0znEaK4')
+const bot = new Telegraf('5740942171:AAH5XUWFENv8PpmZJESvFKJvd_b6_mn7Y7o')
 const axios = require('axios')
 
 /*********[ Apikey ]*********/
@@ -58,7 +58,7 @@ bot.hears('/', (ctx) => {
 })
 
 bot.hears('Kembali Ke Menu Utama', (ctx) => {
-    let priceMessage = '┏━━❉ DARK BOT ❉━━━┓\n┣⊱ Creator : MrDevils\n┣⊱ Whatsapp : 85939888897\n┣⊱ Github : github.com/adimas999\n┣⊱ IG : adimas_sahadoet\n┣⊱ Owner : MrDevils\n┗━━━━━━━━━━━━━━━━\n┏━━❉ *INFO* ❉━━━┓\n┣⊱ *Dilarang spam bot*\n┗━━━━━━━━━━━━━━━━\n┏━━⊱ *BOT MENU* ⊰━━┓\n┣⊱ /othermenu\n┣⊱ /makermenu\n┣⊱ /praymenu\n┣⊱ /funmenu\n┣⊱ /kerangmenu\n┣⊱ /mediamenu\n┣⊱ /animemenu\n┣⊱ /nsfwmenu\n┣⊱ /downloadmenu(error)\n┗━━━━━━━━━━━━━━━━';
+    let priceMessage = '┏━━❉ SANZY BOT ❉━━━┓\n┣⊱ Creator : Sanzy\n┣⊱ Whatsapp : 6281276698054\n┣⊱ Owner : Sanzy\n┗━━━━━━━━━━━━━━━━\n┏━━❉ *INFO* ❉━━━┓\n┣⊱ *Dilarang spam bot*\n┗━━━━━━━━━━━━━━━━\n┏━━⊱ *BOT MENU* ⊰━━┓\n┣⊱ /othermenu\n┣⊱ /makermenu\n┣⊱ /praymenu\n┣⊱ /funmenu\n┣⊱ /kerangmenu\n┣⊱ /mediamenu\n┣⊱ /animemenu\n┣⊱ /nsfwmenu\n┣⊱ /downloadmenu(error)\n┗━━━━━━━━━━━━━━━━';
     ctx.deleteMessage();
     bot.telegram.sendMessage(ctx.chat.id, priceMessage,
     {
@@ -88,7 +88,7 @@ bot.hears('Kembali Ke Menu Utama', (ctx) => {
 })
 
 bot.action('menu', ctx => {
-    let priceMessage = '┏━━❉ DARK BOT ❉━━━┓\n┣⊱ Creator : MrDevils\n┣⊱ Whatsapp : 85939888897\n┣⊱ Github : github.com/adimas999\n┣⊱ IG : adimas_sahadoet\n┣⊱ Owner : MrDevils\n┗━━━━━━━━━━━━━━━━\n┏━━❉ *INFO* ❉━━━┓\n┣⊱ *Dilarang spam bot*\n┗━━━━━━━━━━━━━━━━\n┏━━⊱ *BOT MENU* ⊰━━┓\n┣⊱ /othermenu\n┣⊱ /makermenu\n┣⊱ /praymenu\n┣⊱ /funmenu\n┣⊱ /kerangmenu\n┣⊱ /mediamenu\n┣⊱ /animemenu\n┣⊱ /nsfwmenu\n┣⊱ /downloadmenu(error)\n┗━━━━━━━━━━━━━━━━';
+    let priceMessage = '┏━━❉ SANZY BOT ❉━━━┓\n┣⊱ Creator : Sanzy\n┣⊱ Whatsapp : 6281276698054\n┣⊱ Owner : Sanzy\n┗━━━━━━━━━━━━━━━━\n┏━━❉ *INFO* ❉━━━┓\n┣⊱ *Dilarang spam bot*\n┗━━━━━━━━━━━━━━━━\n┏━━⊱ *BOT MENU* ⊰━━┓\n┣⊱ /othermenu\n┣⊱ /makermenu\n┣⊱ /praymenu\n┣⊱ /funmenu\n┣⊱ /kerangmenu\n┣⊱ /mediamenu\n┣⊱ /animemenu\n┣⊱ /nsfwmenu\n┣⊱ /downloadmenu(error)\n┗━━━━━━━━━━━━━━━━';
     ctx.deleteMessage();
     bot.telegram.sendMessage(ctx.chat.id, priceMessage,
     {
